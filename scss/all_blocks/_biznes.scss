@@ -1,0 +1,81 @@
+.biznes{
+  
+  &__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1260px;
+    height: 420px;
+    background: #F0F0F0;
+    position: relative;
+
+    &:before{
+      content: url(../../images/strelka.png);
+      position: absolute;
+      left: 97%;
+      transform: rotateY(180deg);
+      top: 38%;
+ 
+    }
+
+    &:after{
+      content: url(../../images/strelka.png);
+      position: absolute;
+      right: 97%;
+      top: 38%;
+     
+      
+    }
+  }
+  
+  &__title-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+  
+    
+  }
+  
+  &__pic4{
+    width: 100%;
+    // max-width: 250px;
+    height: 160px;
+  }
+  &__info{
+    width: 260px;
+    // padding-right: 30px;
+    padding: 18px 20px 90px 20px;
+    
+    
+    
+  }
+  &__block{
+    background-color: #fff;
+    width: 300px;
+    height: 400;
+    justify-content: center;
+    margin: 5px;
+  }
+  &__link{
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  &__title{
+    position: relative;
+    padding-left: 80px;
+    
+    
+    
+    &:before{
+      content: url(../../images/kun.uz.svg);
+      position: absolute;
+      margin-left: -80px;
+      margin-top: -5px;
+      
+      
+    }
+  }
+}

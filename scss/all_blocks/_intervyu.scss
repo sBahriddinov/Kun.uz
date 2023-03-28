@@ -1,0 +1,87 @@
+.intervyu{
+    background: #F0F0F0;
+  &__title-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  &__link{
+    text-decoration: none;
+  }
+  
+  
+  &__title{
+    position: relative;
+    ;
+    
+    &::before{
+      content:url(../../images/circle.svg);
+      position: absolute;
+      display: inline-block;
+      right: 109%;
+    }
+  }
+  &__wrapper-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width: 1336px;
+    margin-bottom: 40px;
+    
+  }
+  
+  &__card{
+    width: 298px;
+    height: 340px;
+    background-color:#fff;
+    margin-right: 50px;
+    margin-top: 20px;
+    position: relative;
+
+
+    &:after{
+      content: "Intervyu";
+      position: absolute;
+      width: 20px;
+      display: inline-block;
+      transform: rotateZ(270deg);
+      right: 5%;
+      bottom: 60%;
+      font-size: 28px;
+      line-height: 34px;
+      color:  #E3E3E3;
+      font-family: 'Montserrat';
+
+      
+
+    }
+  }
+  
+  &__speaker-title{
+    font-size: 16px;
+    line-height: 25px;
+    padding-top:20px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+  &__main-pic{
+    width: 256px;
+    height: 165px;
+    margin-left: -20px;
+    margin-top: -20px;
+    box-shadow: #17206A 10px 10px 0px 0px;
+    position: relative;
+
+    &:after{
+      content: "Intervyu";
+      position: absolute;
+      width: 20px;
+      display: inline-block;
+    }
+   
+  }
+}

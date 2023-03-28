@@ -1,0 +1,73 @@
+.maqolalar{
+  
+  &__wrapper{
+    width: 100%;
+    max-width: 1260px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+  }
+  
+  &__items{
+    position: relative;
+    
+    &::after{
+      content: url(../../images/uzb.svg);
+      position: absolute;
+      top: 52.8%;
+    }
+  }
+  
+  &__itemss{
+    position: relative;
+    
+    &::after{
+      content: url(../../images/uzb.svg);
+      position: absolute;
+      top: 42%;
+    }
+    
+  }
+  &__itemsss{
+    position: relative;
+    
+    &::after{
+      content: url(../../images/uzb.svg);
+      position: absolute;
+      top: 44.6%;
+    }
+    
+  }
+  
+  &__main-tile{
+    width: 432px;
+    height:67px;
+  }
+  
+  &__text{
+    width: 432px;
+    height: 138px;
+    padding-top: 25px;
+  }
+  &__pic6{
+    width: 410px;
+    height: 280px;
+    position: relative;
+    margin-top: 20px;
+    
+  }
+  
+  &__title{
+    position: relative;
+    padding-left: 20px;
+    
+    &::before{
+      content: url(../../images/circle.svg);
+      position: absolute;
+      margin-left: -20px;
+    }
+  }
+  
+  
+}

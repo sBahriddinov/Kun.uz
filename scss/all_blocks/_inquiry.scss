@@ -1,0 +1,51 @@
+.inquiry{
+
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  &__card1{
+    width: 100%;
+    max-width: 660px;
+    height: 430px;
+    background: #F0F0F0;
+    margin-right: 30px;
+
+
+  }
+
+  &__card2{
+    display: grid;
+    grid-template-columns: auto auto;;
+    margin-left: 80px;
+    margin-top: -30px;
+  }
+
+  &__img1{
+    width: 90%;
+    max-width: 700px;
+    height: 350px;
+    box-shadow: #fcfcff 17px 17px 0px 0px;
+    margin-top: -30px;
+  }
+  // &__img2{
+  //   margin: -30px 30px ;
+  // }
+  &__text{
+    padding-bottom: 0px;
+    padding-left: 15px;
+  }
+
+  &__title{
+    position: relative;
+    padding-left: 20px;
+
+    &::before{
+      content: url(../../images/circle.svg);
+      position: absolute;
+      margin-left: -20px;
+      
+    }
+  }
+}

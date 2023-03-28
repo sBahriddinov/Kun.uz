@@ -1,0 +1,45 @@
+.menu 
+{
+    width: 100%;
+    height: 43px;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+
+    &_ul 
+    {
+        display: flex;
+        align-items: center;
+
+        &-li 
+        {
+            margin-left: 10px;
+
+            &--active 
+            {
+                font-size: 12px;
+                background-color: #000075;
+                color: #fff;
+                padding: 14px ;
+                padding-right: 30px;
+                margin-left: -9px;
+                clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+            }
+
+            &--a
+            {
+                font-size: 12px;
+                padding-right: 10px;
+                border-right: 1px solid #585858;
+                color: #000;
+
+                &:hover
+                {
+                    color: blue;
+                }
+
+
+            } 
+        }
+    }
+}

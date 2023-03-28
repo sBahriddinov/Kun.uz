@@ -1,0 +1,38 @@
+.everyday{
+  position: relative;
+
+  &__bacgraund{
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 1336px;
+  }
+
+  &__list{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+    left: 10%; 
+  }
+
+  &__imgg{
+    width: 173px;
+    height: 54px;
+    margin-left: 20px;
+  }
+  &__imgg1{
+    width: 173px;
+    height: 54px;
+    margin-left: 20px;
+  
+  }
+
+
+
+  &__wrapperr{
+    position: relative;
+  }
+}
